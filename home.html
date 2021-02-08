@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnakeGame | by ThreeWhi</title>
+
+    <link rel="stylesheet" href="topBar.css">
+    <link rel="stylesheet" href="homeStyle.css">
+
+</head>
+<body>
+    
+    <div id="topBar">
+        <img id="logo" src="img/Command_Block 64x64.png" alt="Logo">
+
+        <h1 id="title">Three<span>Whi</span></h1>
+
+        <ul id="list">
+            <li id="home"><a id="homeA" href="home.html">Home</a></li>
+            <li id="contact"><a href="contact.html">Contact</a></li>
+            <li id="about"><a href="about.html">About</a></li>
+        </ul>
+    </div>
+
+    <div id="voidBar"></div>
+
+    <div id="gameSpace">
+        <h1 id="score">Snake Game</h1>
+        <button id="startGame" onclick="display()">Start Game</button>
+        <canvas id="canvas" width="784" height="784"></canvas>
+    </div>
+
+    <script src="homeCode.js"></script>
+
+</body>
+</html>

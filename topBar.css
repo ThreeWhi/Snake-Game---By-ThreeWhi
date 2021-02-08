@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+::selection {
+    color: white;
+    background-color: rgb(216, 141, 2);
+}
+
+#topBar {
+    width: 100%;
+    height: 72px;
+    background-color: rgb(51, 51, 51);
+    position: fixed;
+    display: flex;
+    /* box-shadow: black 0px 0px 20px 8px; */
+}
+
+#voidBar {
+    width: 100%;
+    height: 72px;
+}
+
+#logo {
+    margin: 4px;
+    align-self: center;
+}
+
+@keyframes logo {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#logo:hover {
+    animation: logo 1s forwards;
+}
+
+#title {
+    color: rgb(128, 128, 128);
+    align-self: center;
+    margin: auto auto auto 0px;
+}
+
+#title:hover {
+    cursor: pointer;
+}
+
+#title span{
+    color: white;
+    text-shadow: gray 0px 0px 50px;
+}
+
+#list {
+    list-style: none;
+    display: flex;
+    align-self: center;
+    color: white;
+    margin: auto 0px auto auto;
+}
+
+#list li a{
+    text-decoration: none;
+    color: white;
+    margin: 4px;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 4px 10px 4px 10px;
+}
+
+@keyframes hover {
+    100% {background-color: rgb(41, 41, 41); color: orange;}
+}
+
+#list li a:hover{
+    animation: hover 0.5s forwards;
+}
