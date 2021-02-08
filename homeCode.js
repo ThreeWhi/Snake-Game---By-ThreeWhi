@@ -123,6 +123,8 @@ function gameOver() {
         snakeP = 0;
         snakeHeadX = 0;
         snakeHeadY = 0;
+        snakePX = [];
+        snakePY = [];
         direction = 'null';
     }
 }
